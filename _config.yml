@@ -1,7 +1,7 @@
 #Your info
 title: Your awesome title
 author:
-  name: GitHub User
+  name: Your Name
   email: your-email@example.com
 description: > # ignore newlines until "baseurl:"
   Write a description for your site here. You can edit 
@@ -13,10 +13,14 @@ url: "" # base hostname & protocal for your site, e.g. http://example.com
 
 show_exerpts: false # set to true to show excerpts on the homepage
 
+#Personal Theme Formatting
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+personal-theme:
+  date_format: "%b %-d, %Y"
 # social links in footer
 social_links:
-  github: jekyll
-  linkedin: user-jekyll
+  github_username: jekyll
+  linkedin_username: user-jekyll
   # twitter: jekyllrb
   # devto: jekyll
   # dribbble: jekyll
@@ -37,4 +41,5 @@ social_links:
 theme: personal-theme
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
