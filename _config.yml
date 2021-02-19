@@ -17,25 +17,25 @@ show_exerpts: false # set to true to show excerpts on the homepage
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 personal-theme:
   date_format: "%b %-d, %Y"
-# social links in footer
-social_links:
-  github_username: jekyll
-  linkedin_username: user-jekyll
-  # twitter: jekyllrb
-  # devto: jekyll
-  # dribbble: jekyll
-  # facebook: jekyll
-  # flickr:   jekyll
-  # instagram: jekyll
-  # linkedin: jekyll
-  # pinterest: jekyll
-  # youtube: jekyll
-  # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-  # youtube_channel_name: CloudCannon
-  # telegram: jekyll
-  # googleplus: +jekyll
-  # microdotblog: jekyll
-  # keybase: jekyll
+  # social links in footer
+  social_links:
+    github_username: jekyll
+    linkedin_username: user-jekyll
+    # twitter: jekyllrb
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
 
 # Build settings
 theme: personal-theme
