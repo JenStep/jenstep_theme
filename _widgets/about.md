@@ -1,6 +1,6 @@
 ---
 title: About
-layout: page
+layout: widget
 ---
 
 # Who Am I?

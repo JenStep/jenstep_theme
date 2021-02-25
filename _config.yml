@@ -12,7 +12,8 @@ baseurl: "" # subpath of your site, e.g. /blog
 url: "" # base hostname & protocal for your site, e.g. http://example.com
 
 show_exerpts: false # set to true to show excerpts on the homepage
-
+collections:
+    - widgets
 #Personal Theme Formatting
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 personal-theme:

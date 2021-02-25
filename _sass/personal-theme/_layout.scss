@@ -149,9 +149,7 @@
   flex: 1;
   border-radius: 10px;
   background-color: #EBEBEB;
-  width: 75%;
   margin: auto;
-  max-width: 1000px;
 }
 
 .page-heading {
@@ -226,4 +224,23 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+/**
+ * Widget
+ */
+.widget {
+  border-radius: 10px;
+  border-color: #FF0000;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin: 10px;
+}
+
+.widget-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 10px;
 }
