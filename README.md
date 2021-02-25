@@ -27,7 +27,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+Widgets can be added to your front page under the `_widgets` folder. Make sure all files you want to appear include `theme: widget` in the front matter block.
+
+Many features are still under development.
 
 ## Contributing
 
