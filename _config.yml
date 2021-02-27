@@ -39,7 +39,7 @@ personal-theme:
     # keybase: jekyll
 
 # Build settings
-theme: personal-theme
+theme: jenstep_theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

@@ -1,4 +1,4 @@
-{%- assign social = site.personal-theme.social_links -%}
+{%- assign social = site.jenstep_theme.social_links -%}
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ '/' | relative_url }}"></data>
 
@@ -24,7 +24,7 @@
             <li>
               <a rel="me" href="https://github.com/{{ social.github_username | cgi_escape | escape }}" title="{{ social.github_username | escape }}"> 
                 <svg class="svg-icon grey">
-                  <use xlink:href="{{ '/assets/personal-theme-social-icons.svg#github' | relative_url }}"></use>
+                  <use xlink:href="{{ '/assets/jenstep_theme_social_icons.svg#github' | relative_url }}"></use>
                 </svg>
                 {{ social.github_username | escape }}
               </a>
@@ -35,7 +35,7 @@
             <li>
               <a rel="me" href="https://www.linkedin.com/in/{{ social.linkedin_username | cgi_escape | escape }}" title="{{ social.linkedin | escape }}">
               <svg class="svg-icon grey">
-                <use xlink:href="{{ '/assets/personal-theme-social-icons.svg#linkedin' | relative_url }}"></use>
+                <use xlink:href="{{ '/assets/jenstep_theme_social_icons.svg#linkedin' | relative_url }}"></use>
               </svg>
               {{ social.linkedin_username | escape }}
               </a>
