@@ -13,7 +13,6 @@ url: "" # base hostname & protocal for your site, e.g. http://example.com
 
 show_exerpts: false # set to true to show excerpts on the homepage
 collections:
-  sort_by: order
     - widgets
 #Personal Theme Formatting
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
