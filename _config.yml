@@ -13,10 +13,11 @@ url: "" # base hostname & protocal for your site, e.g. http://example.com
 
 show_exerpts: false # set to true to show excerpts on the homepage
 collections:
+  sort_by: order
     - widgets
 #Personal Theme Formatting
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-personal-theme:
+jenstep_theme:
   date_format: "%b %-d, %Y"
   # social links in footer
   social_links:
@@ -39,7 +40,7 @@ personal-theme:
     # keybase: jekyll
 
 # Build settings
-theme: personal-theme
+theme: jenstep_theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

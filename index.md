@@ -1,6 +1,7 @@
 ---
 title: "Welcome"
 layout: home
+order: 1
 ---
 # Welcome!
 
