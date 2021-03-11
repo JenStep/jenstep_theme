@@ -240,7 +240,9 @@
 .widget-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: center;
   padding: 10px;
+}
+
+.widget-wrapper>* {
+  flex: 1 1 auto;
 }
