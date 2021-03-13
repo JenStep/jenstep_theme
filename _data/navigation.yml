@@ -1,0 +1,11 @@
+- title: Home
+  url: /
+- title: Contact Us
+  url: /contactUs.html
+- title: Subpage
+  url: /subpage.html
+  sublinks:
+    - title: Subpage 1
+      url: /subpage1.html
+    - title: Subpage 2
+      url: /subpage2.html

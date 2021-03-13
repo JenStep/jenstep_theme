@@ -1,7 +1,7 @@
 ---
 title: Contact Us
 layout: default
-order: 2
+permalink: /contactUs.html/
 ---
 
 # Contact us!
